@@ -1,0 +1,61 @@
+# run js file:
+ 1.make a html file and run on live server, click right and do inspect
+ 2. in inspect , there is a console on the right half 
+ 3.make a js file like "variable.js" , js is the extension of JavaScript
+ 4. assign  variables with value and write "console.log(variableName)"
+  and go to step 2's place( the console part)
+  in console it will show the variable's value that you wanted to print
+
+# suppose 
+  fullname=" tony stark"
+  console.log(fullname)
+  it will show the string "tony stark" in the console 
+  but  if you again assign fullname=23, 
+  it will replace the sting tony stark with a in value 23
+   so the updated fullname will be 23 not tony stark
+
+# JavaScript is case sensitive, fullname and FULLNAME are not same thing
+ 
+# Variable names that are valid in JavaScript
+fullname 
+_fullname
+$fullname
+fullname112
+
+# 3 proper way to declare a variable name-
+1.let - variable can not be  re-declared but can be updated,  a block scope variable 
+2.var - variable can be re-declared and updated, a global scope variable (not recommended) 
+3.const -(constant value) variable can not be re-declared or updated,  a block scope variable
+
+* if (let)  variable is not assign wih value then it's output will be undefined
+ let a;
+ console.log(a);
+ output: undefined
+ * if (const) variable is not assign wih value then it will show an error
+
+
+ * block in js is { .....}
+
+ {
+    let a = 10;
+    console.log(a);
+}
+{
+    let a = 20;
+    console.log(a);
+}
+value wont be updated. output will be print as 10 20
+# data types in JavaScript: number,string boolean, null,undefined,bigint,symbol
+
+#object:
+format:
+ const objectname{
+key: value,
+key:value,....
+
+};
+typeof variablename will be object
+
+console.log(student["age"]);// 23
+//or
+console.log(student.age);// 23

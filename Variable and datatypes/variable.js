@@ -1,0 +1,16 @@
+let fullname = "tony stark";
+console.log(fullname);
+age = 24;
+price = 99.99;
+x = null;
+y = undefined;
+isFollow = false;
+console.log(isFollow);
+console.log(fullname, age, price, x, y);
+fullname = 25;
+console.log(fullname);
+FULLNAME = "shreya";
+console.log(FULLNAME);
+a = 23;
+b = a;
+console.log(b);
