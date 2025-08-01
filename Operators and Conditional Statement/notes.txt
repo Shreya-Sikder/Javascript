@@ -1,0 +1,30 @@
+#operator in js:
+*arithmetic operators(+,-,*,/,%,exponentiation)
+*unary operator(increment,decrement)
+
+*exponentiation =a ** b means a^b
+
+unary operator
+* a=5
+a++;
+console.log("a=",a);
+output=6
+ 
+ a=5
+ console.log("a= ",a++);
+ output=5
+ console.log("a=" ,a);
+ output=6
+
+a=5
+ console.log("a= ",++a);
+ output=6
+
+
+Comparison operator
+equal to ==
+equal to &data type ===
+not equal to !=
+not equal to &type !==
+>, >=,<,<=
+
